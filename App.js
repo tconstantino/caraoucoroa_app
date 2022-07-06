@@ -12,10 +12,14 @@ import {
   StyleSheet,
 } from 'react-native';
 import Principal from './src/components/principal';
+import SobreOJogo from './src/components/sobre-o-jogo';
+import OutrosJogos from './src/components/outros-jogos';
 
 const App: () => React$Node = () => {
   return (
-      <Principal></Principal>
+      // <Principal></Principal>
+      <SobreOJogo></SobreOJogo>
+      // <OutrosJogos></OutrosJogos>
   );
 };
 
