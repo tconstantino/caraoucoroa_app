@@ -33,7 +33,7 @@
                     <TouchableHighlight 
                         underlayColor={corFundo}
                         activeOpacity={0.5}
-                        onPress={() => {}}>
+                        onPress={() => this.props.navigation.navigate('Resultado')}>
                         <Image style={{marginTop: 25}} source={botaoJogarImg}></Image>
                     </TouchableHighlight>
                 </View>
@@ -41,13 +41,13 @@
                     <TouchableHighlight
                         underlayColor={corFundo}
                         activeOpacity={0.5}
-                        onPress={() => {}}>
+                        onPress={() => this.props.navigation.navigate('Sobre')}>
                         <Image style={styles.botao} source={botaoSobreOJogoImg}></Image>
                     </TouchableHighlight>
                     <TouchableHighlight
                         underlayColor={corFundo}
                         activeOpacity={0.5}
-                        onPress={() => {}}>
+                        onPress={() => this.props.navigation.navigate('OutrosJogos')}>
                         <Image style={styles.botao} source={botaoOutrosJogosImg}></Image>
                     </TouchableHighlight>
                 </View>
